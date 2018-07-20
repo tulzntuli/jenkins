@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/openshift3/jenkins-1-rhel7:1.609-15
+FROM https://hub.docker.com/r/thulani/jenkins/:latest
 
 ADD config-cloud.xml credentials.xml /opt/openshift/
 
