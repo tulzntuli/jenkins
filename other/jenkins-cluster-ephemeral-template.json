@@ -2,7 +2,7 @@
     "kind": "Template",
     "apiVersion": "v1",
     "metadata": {
-        "name": "jenkins-cluster-ephemeral2",
+        "name": "jenkins-cluster-ephemeral",
         "annotations": {
             "description": "Jenkins cluster example",
             "iconClass": "icon-jenkins",
@@ -637,6 +637,6 @@
         }
     ],
     "labels": {
-        "template": "jenkins-cluster-ephemeral2"
+        "template": "jenkins-cluster-ephemeral"
     }
 }

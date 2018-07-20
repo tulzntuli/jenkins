@@ -59,7 +59,7 @@ Add the **edit** role to the default service account
 
 Alternatively, you can choose to utilize a separate service account to run the Jenkins master. The *other* folder contains a service account called **jenkins** that can be added to the project. To instantiate the service account, execute the following command from within the other folder:
 
-    oc create -f jenkins.json
+    oc create -f jenkins-sa.json
 
 The jenkins service account will be created. Now add the *edit* role to this account as shown previously for the default service account:
 
